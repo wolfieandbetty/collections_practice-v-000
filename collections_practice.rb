@@ -33,5 +33,7 @@ def kesha_maker (array)
 end
 
 def sort_array_char_count
-array.sort_by { |item| item.length}
+  array.sort do |first, second|
+    first.length <=> second.length
+  end
 end
