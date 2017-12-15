@@ -39,11 +39,11 @@ def sort_array_char_count (array)
 end
 
 def add_s (array)
-  array.collect do |word|
-    if word ==array[1]
-      word
+  array.collect do |item|
+    if item ==array[1]
+      item
     else
-      word + "s"
+      item + "s"
     end
   end
 end
