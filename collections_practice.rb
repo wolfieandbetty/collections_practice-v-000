@@ -32,7 +32,7 @@ def kesha_maker (array)
   end
 end
 
-def sort_array_char_count
+def sort_array_char_count (array)
   array.sort do |first, second|
     first.length <=> second.length
   end
