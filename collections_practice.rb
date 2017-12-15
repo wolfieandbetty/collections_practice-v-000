@@ -31,3 +31,7 @@ def kesha_maker (array)
     element[2]="$"
   end
 end
+
+def sort_array_char_count
+array.sort_by { |item| item.length}
+end
